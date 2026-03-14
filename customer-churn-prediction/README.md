@@ -3,6 +3,20 @@
 ## Project Overview
 This project predicts telecom customer churn using machine learning models.
 
+## Project Workflow
+
+1. Data Loading
+2. Exploratory Data Analysis
+3. Data Cleaning
+4. Feature Engineering
+5. Encoding Categorical Variables
+6. Train-Test Split
+7. Logistic Regression Model
+8. Random Forest Model
+9. Model Evaluation
+10. Feature Importance
+11. Business Insights
+
 ## Dataset
 IBM Telco Customer Churn Dataset containing customer demographics, services, and billing information.
 

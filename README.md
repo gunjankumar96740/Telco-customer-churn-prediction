@@ -1,38 +1,76 @@
-# Customer Churn Prediction
+# 📊 Telco Customer Churn Analysis
 
-## Project Overview
-This project predicts telecom customer churn using machine learning models.
-## Project Workflow
+## 📌 Overview
+This project focuses on analyzing customer churn in the telecom industry using machine learning and business intelligence techniques. The objective is to identify key factors influencing churn and provide actionable insights to improve customer retention.
 
-1. Data Loading
-2. Exploratory Data Analysis
-3. Data Cleaning
-4. Feature Engineering
-5. Encoding Categorical Variables
-6. Train-Test Split
-7. Logistic Regression Model
-8. Random Forest Model
-9. Model Evaluation
-10. Feature Importance
-11. Business Insights
+---
 
-## Dataset
-IBM Telco Customer Churn Dataset containing customer demographics, services, and billing information.
+## 🛠️ Tools & Technologies
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Machine Learning (Logistic Regression, Random Forest)
+- Power BI
+- Statistics
 
-## Models Used
-- Logistic Regression
-- Random Forest
+---
 
-## Results
-Random Forest achieved higher accuracy (~78%) while Logistic Regression showed higher recall for churn detection.
+## 🔄 Project Workflow
+1. Data Loading  
+2. Exploratory Data Analysis (EDA)  
+3. Data Cleaning & Preprocessing  
+4. Feature Engineering  
+5. Encoding Categorical Variables  
+6. Train-Test Split  
+7. Model Building (Logistic Regression & Random Forest)  
+8. Model Evaluation  
+9. Feature Importance Analysis  
+10. Dashboard Creation (Power BI)  
+11. Business Insights  
 
-## Key Insights
-- Customers with month-to-month contracts churn more frequently.
-- Customers with shorter tenure are more likely to leave.
-- Higher monthly charges increase churn probability.
+---
 
-## Tools Used
-Python, Pandas, Scikit-learn, Matplotlib, Seaborn
+## 📊 Dataset
+IBM Telco Customer Churn Dataset containing customer demographics, services, tenure, contract type, and billing information.
 
-## Author
-Gunjan Kumar
+---
+
+## 🤖 Model Performance
+- Random Forest Accuracy: ~78%  
+- Logistic Regression Accuracy: ~73%  
+- Logistic Regression Recall: 0.79 (better at identifying churn customers)  
+
+---
+
+## 📈 Key Insights
+- Customers with month-to-month contracts have higher churn rates  
+- Customers with shorter tenure are more likely to leave  
+- Higher monthly charges significantly increase churn probability  
+
+---
+
+## 📊 Power BI Dashboard
+The Power BI dashboard provides an interactive visualization of:
+- Customer churn distribution  
+- Churn by contract type and tenure  
+- Payment method analysis  
+- Customer segmentation  
+
+### 🔹 Dashboard Overview
+![Overview](Dashboard-overview.png)
+
+### 🔹 KPI metrics
+![Churn](KPI_.png)
+
+### 🔹 Trend Analysis
+![Trend](Trend.png)
+
+
+## 🚀 Project Highlights
+- Combined machine learning with business intelligence  
+- Compared models based on accuracy and recall  
+- Identified key churn drivers for decision-making  
+- Developed interactive dashboard for stakeholders  
+
+---
+
+## 💡 Business Impact
+This project helps telecom companies identify high-risk customers and take proactive measures such as retention strategies, personalized offers, and service improvements to reduce churn.

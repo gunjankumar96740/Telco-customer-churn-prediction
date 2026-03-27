@@ -55,10 +55,10 @@ The Power BI dashboard provides an interactive visualization of:
 - Customer segmentation  
 
 ### 🔹 Dashboard Overview
-![Overview](Dashboard-overview.png)
+![Overview](Dashboard-overview (2).png)
 
 ### 🔹 KPI metrics
-![Churn](KPI_.png)
+![KPI](KPI_.png)
 
 ### 🔹 Trend Analysis
 ![Trend](Trend.png)
